@@ -92,7 +92,7 @@ scaler = MinMaxScaler()
 X_normal = scaler.fit_transform(X)
 
 # -----------------------------------------------------
-model = pickle.load(open("Model/knn_model.pkl", 'rb'))
+model = pickle.load(open("model/knn_model.pkl", 'rb'))
 
 y_pred = model.predict(X_normal)
 accuracy = accuracy_score(y, y_pred)
