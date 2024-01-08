@@ -1,8 +1,0 @@
-param_grid = {
-    'criterion': ['gini', 'entropy'],  # Kriteria untuk pemisahan node
-    'splitter': ['best', 'random'],  # Strategi pemilihan pemisah node
-    'max_depth': [None, 10, 20, 30],  # Kedalaman maksimum pohon
-    'min_samples_split': [2, 5, 10],  # Jumlah sampel minimum yang diperlukan untuk memisahkan node internal
-    'min_samples_leaf': [1, 2, 4],  # Jumlah sampel minimum yang diperlukan untuk menjadi daun
-    'max_features': ['auto', 'sqrt', 'log2', None]  # Jumlah fitur maksimum yang dipertimbangkan untuk pemisahan
-}
